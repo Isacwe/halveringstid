@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halveringstid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Halveringstids graf</h1>
+    <h2>Processen för att skapa programmet:</h2>
+    <ol>
+        <li>Först tänkte vi ut hur vi skulle matematiskt räkna ut det. Då använde vi formeln <img src="halveringstid-formel.png" height="50"> <p></p>Vi tänkte att vi skulle räkna ut ett y värde för varje x värde med hälp av formeln. Sen skulle vi lägga in dom i en arraylist och sedan rita ut dom.</li>
+        <li>Sedan skapade vi filen för projektet och lade till en JFrame och en JPanel. I JPanel lade vi till texterna, textfälten och knappen.</li>
+        <li>Efter det skapade vi själva grafen med hjälp av draw i java. För att räkna ut x- och y-värdena på grafen använde vi oss av en for-loop med halverings-formeln i. </li>
+        <li>När vi hade räknat ut y-värdena så lade vi till dom i en arraylist. Arraylisten lade vi sedan i en annan loop i paintComponent-metoden för att rita ut alla pixlarna i grafen.</li>
+        <li>Till sist begränsade vi x- och y-värdena på ekvationen för att den inte skulle hamna utanför grafens ruta.</li>
+    </ol>
+    <img src="gif.gif" alt="">
+    <h2>Hur man använder programmet:</h2>
+    <ol>
+        <li>Du skriver in vikten av ämnet du har, halveringstiden för ämnet och tiden som du vill se halveringsgrafen för.</li>
+        <li>Klicka på knappen "Skapa graf"</li>
+    </ol>
+</body>
+</html>
